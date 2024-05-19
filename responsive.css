@@ -1,0 +1,155 @@
+@media screen and (min-width: 344px) and (max-width: 360px) {
+    .community {
+        bottom: -225px;
+    }
+
+    .foot img {
+        height: 50px;
+    }
+
+    }
+@media screen and (min-width: 400px) {
+
+    .try-btn {
+        padding: 10px 45px;
+    }
+
+    .right-side {
+        width: 345px;
+    }
+
+    .left h1 {
+        width: 381px;
+    }
+}
+
+
+@media screen and (min-width: 850px) {
+    .info {
+        gap: 45px;
+        padding: 35px 60px;
+        background: var(--Very_Pale_Cyan) url(images/bg-hero-desktop.svg) no-repeat;
+    }
+
+    .show {
+        grid-template-columns: 49% 41%;
+    }
+
+    .left {
+        text-align: left;
+        align-items: baseline;
+    }
+
+    .cards {
+        padding: 80px 70px;
+    }
+
+    .card {
+        flex-direction: row !important;
+        gap: 85px;
+        padding: 40px 28px 40px 82px;
+    }
+
+    .left-side {
+        text-align: left;
+    }
+
+    .right-side {
+        width: 680px;
+    }
+
+    .community {
+        width: 60%;
+        left: 18%
+    }
+
+    footer {
+        padding: 125px 70px 65px;
+        gap: 25px
+    }
+
+    .footer {
+        grid-template-columns: 50% 50%;
+        gap: 25px 70px;
+    }
+
+    .foot-four {
+        align-items: baseline;
+    }
+}
+
+
+@media screen and (min-width: 965px) {
+
+    .left-side {
+        width: 501px;
+    }
+
+    .right-side {
+        width: 480px;
+    }
+
+    .one .right-side {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1160px) {
+    .info {
+        gap: 45px;
+        padding: 35px 80px;
+    }
+
+    .show {
+        grid-template-columns: 474px 49%;
+    }
+
+    .left-side {
+        width: 438px !important;
+    }
+
+    .card.two .left-side {
+        width: 442px !important;
+    }
+
+    .foot {
+        height: 50px;
+    }
+
+    .footer {
+        grid-template-columns: 33% 17% 17% 23%;
+        gap: 40px;
+        align-items: flex-start;
+    }
+
+    .copy {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .info {
+        gap: 45px;
+        padding: 45px 120px;
+    }
+
+    .show {
+        gap: 15%;
+    }
+
+    .footer {
+        grid-template-columns: 390px 200px 200px 200px;
+        gap: 63px
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .card {
+        gap: 205px;
+    }
+
+    .community {
+        width: 50%;
+        left: 25%
+    }
+}

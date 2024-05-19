@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    --Pink: hsl(322, 100%, 66%);
+    /* Neutral */
+    --Very_Pale_Cyan: hsl(193, 100%, 96%);
+    --Very_Dark_Cyan: hsl(192, 100%, 9%);
+    --Grayish_Blue: hsl(208, 11%, 55%);
+}
+
+main {
+    /* width: 80vw; */
+    position: relative;
+    /* border: 2px solid red; */
+}
+
+.info {
+    padding: 35px;
+    background: var(--Very_Pale_Cyan) url(images/bg-hero-mobile.svg) no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 95px;
+    background-size: cover;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.try-btn {
+    background-color: #fff;
+    padding: 8px 17px;
+    color: black;
+    border-radius: 26px;
+    border: none;
+    box-shadow: 0 0 3px 1px var(--Grayish_Blue);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.try-btn:hover {
+    color: var(--Grayish_Blue);
+}
+
+.show {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 75px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.left h1 {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+}
+
+.left p {
+    font-weight: 500;
+}
+
+.start {
+    padding: 15px 85px;
+    border-radius: 28px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: var(--Pink);
+    transition: all 0.5s ease-in;
+    font-weight: 700;
+    color: var(--Very_Pale_Cyan);
+    box-shadow: 0 2px 3px 3px var(--Very_Pale_Cyan);
+}
+
+.start:hover {
+    background-color: hsl(322deg 86.59% 78.86%);
+}
+
+.right img {
+    width: 100%;
+}
+
+.cards {
+    padding: 80px 25px;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 30px;
+    margin-bottom: 108px;
+}
+
+.card {
+    display: flex;
+    /* border: 2px solid green; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 4px 4px hsl(208deg 2.64% 89.49%);
+}
+
+.card.one,
+.card.three {
+    flex-direction: column-reverse;
+}
+
+.card.two {
+    flex-direction: column;
+}
+
+.left-side h2 {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+}
+
+.left-side p {
+    color: var(--Grayish_Blue);
+    font-weight: 500;
+}
+
+.right-side img {
+    width: 100%;
+}
+
+.community {
+    width: 90%;
+    /* border: 2px solid blue; */
+    position: absolute;
+    z-index: 5;
+    background-color: white;
+    bottom: -195px;
+    left: 5%;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 0 4px 4px hsl(208deg 2.64% 89.49%);
+}
+
+.community h3 {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: var(--Very_Dark_Cyan);
+    color: #fff;
+    padding: 150px 25px 60px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.foot-one {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: baseline;
+}
+
+.foot-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.foot-four {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons i {
+    padding: 4px 8px 5px 8px;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.icons i:hover {
+    border: 1px solid var(--Pink);
+    color: var(--Pink);
+}
+
+.copy {
+    text-align: center;
+    margin-top: 12px;
+}
