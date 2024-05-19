@@ -1,4 +1,8 @@
 @media screen and (min-width: 344px) and (max-width: 360px) {
+
+    .cards {
+        padding: 80px 25px 135px;
+    }
     .community {
         bottom: -225px;
     }
@@ -12,6 +16,10 @@
 
     .try-btn {
         padding: 10px 45px;
+    }
+
+    .cards {
+        padding: 80px 25px 155px;
     }
 
     .right-side {
