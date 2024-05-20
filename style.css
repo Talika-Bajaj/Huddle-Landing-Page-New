@@ -38,11 +38,11 @@ main {
 
 .try-btn {
     background-color: #fff;
-    padding: 8px 17px;
+    padding: 9px 17px;
     color: black;
     border-radius: 26px;
     border: none;
-    box-shadow: 0 0 3px 1px var(--Grayish_Blue);
+    /* box-shadow: 0 0 3px 1px var(--Grayish_Blue); */
     font-weight: 700;
     cursor: pointer;
     transition: all 0.3s ease-in;
@@ -70,6 +70,8 @@ main {
 .left h1 {
     font-family: "Poppins", sans-serif;
     width: 100%;
+    font-weight: 600;
+    font-size: 40px;
 }
 
 .left p {
@@ -77,8 +79,9 @@ main {
 }
 
 .start {
-    padding: 15px 85px;
-    border-radius: 28px;
+    font-size: 17px;
+    padding: 20px 80px;
+    border-radius: 60px;
     border: none;
     color: white;
     cursor: pointer;
@@ -115,7 +118,7 @@ main {
     text-align: center;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 0 4px 4px hsl(208deg 2.64% 89.49%);
+    box-shadow: 0 0 11px 4px #f1eded;
 }
 
 .card.one,
@@ -127,14 +130,17 @@ main {
     flex-direction: column;
 }
 
-.left-side h2 {
+.left-side h1 {
     font-family: "Poppins", sans-serif;
     margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 35px;
 }
 
 .left-side p {
     color: var(--Grayish_Blue);
     font-weight: 500;
+    line-height: 1.6;
 }
 
 .right-side img {
@@ -161,8 +167,9 @@ main {
 }
 
 .community h3 {
-    font-size: 24px;
+    font-size: 28px;
     font-family: "Poppins", sans-serif;
+    font-weight: 600;
 }
 
 footer {
@@ -170,7 +177,7 @@ footer {
     grid-template-columns: 100%;
     background-color: var(--Very_Dark_Cyan);
     color: #fff;
-    padding: 150px 25px 60px;
+    padding: 190px 25px 60px;
 }
 
 .footer {

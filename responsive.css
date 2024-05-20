@@ -27,7 +27,7 @@
     }
 
     .left h1 {
-        width: 381px;
+        width: 450px;
     }
 }
 
@@ -37,6 +37,10 @@
         gap: 45px;
         padding: 35px 60px;
         background: var(--Very_Pale_Cyan) url(images/bg-hero-desktop.svg) no-repeat;
+    }
+
+    .head img {
+        height: 35px;
     }
 
     .show {
@@ -49,7 +53,7 @@
     }
 
     .cards {
-        padding: 80px 70px;
+        padding: 150px 70px;
     }
 
     .card {
@@ -72,7 +76,7 @@
     }
 
     footer {
-        padding: 125px 70px 65px;
+        padding: 190px 70px 65px;
         gap: 25px
     }
 
@@ -104,12 +108,12 @@
 
 @media screen and (min-width: 1160px) {
     .info {
-        gap: 45px;
-        padding: 35px 80px;
+        gap: 75px;
+        padding: 50px 80px;
     }
 
     .show {
-        grid-template-columns: 474px 49%;
+        grid-template-columns: 474px 45%;
     }
 
     .left-side {
@@ -125,8 +129,8 @@
     }
 
     .footer {
-        grid-template-columns: 33% 17% 17% 23%;
-        gap: 40px;
+        grid-template-columns: 36% 16% 16% 16%;
+        gap: 58px;
         align-items: flex-start;
     }
 
@@ -137,12 +141,16 @@
 
 @media screen and (min-width: 1250px) {
     .info {
-        gap: 45px;
-        padding: 45px 120px;
+        gap: 95px;
+        padding: 90px 130px;
     }
 
     .show {
-        gap: 15%;
+        gap: 13%;
+    }
+
+    .cards {
+        padding: 180px 70px;
     }
 
     .footer {
@@ -159,5 +167,11 @@
     .community {
         width: 50%;
         left: 25%
+    }
+
+    .footer {
+        grid-template-columns: 36% 16% 16% 17%;
+        gap: 71px;
+        align-items: flex-start;
     }
 }
